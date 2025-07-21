@@ -1,0 +1,29 @@
+# MacOS directory files
+.DS_Store
+
+# cache dir
+.cache/
+
+# VS Code Settings
+.vscode/
+
+# VIM files
+*.swp
+*.swo
+
+# Clion IDE CMake build & config
+.idea/
+cmake-build-*/
+
+# Build files
+/build/
+
+# managed_components
+managed_components
+
+# ESP-IDF specific files
+/sdkconfig
+/sdkconfig.old
+
+# lock files
+dependencies.lock

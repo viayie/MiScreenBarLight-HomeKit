@@ -1,0 +1,16 @@
+idf_component_register(
+    SRCS
+        "app_main.c"
+        "lightbulb.c"
+    INCLUDE_DIRS 
+        "."
+    PRIV_REQUIRES 
+        esp_hap_core
+        esp_hap_apple_profiles
+        esp_hap_extras
+        esp_hap_platform
+        button
+        app_hap_setup_payload
+        app_wifi
+        qrcode
+)
